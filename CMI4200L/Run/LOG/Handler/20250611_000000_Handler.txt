@@ -1,0 +1,22 @@
+[20:55:31 600] [Main Dialog] Program Start..   Version(V3.4.13.s2)
+[20:55:35 766] [Main Dialog] Setup Mode start
+[20:55:36 117] [Main Dialog] Manual Mode start
+[20:55:37 719] [Manual - Loading] Start
+[20:55:38 035] [Manual - Load Picker] Start
+[20:55:38 344] [Manual - Inspector] Start
+[20:55:38 727] [Manual - Ng Good Picker] Start
+[20:55:39 078] [Manual - Unloading] Start
+[20:55:39 456] [Manual - Unload Picker] Start
+[20:55:41 391] [Main Dialog] Program Exit
+[21:14:10 524] [Main Dialog] Program Start..   Version(V3.4.13.s2)
+[21:14:13 570] [Main Dialog] Manual Mode start
+[21:14:14 384] [Manual - Load Picker] Start
+[21:14:14 743] [Manual - Inspector] Start
+[21:14:17 493] [Manual - Ng Good Picker] Start
+[21:14:17 898] [Manual - Unloading] Start
+[21:14:18 496] [Manual - Inspector] Start
+[21:14:18 892] [Manual - Ng Good Picker] Start
+[21:14:19 590] [Manual - Unloading] Start
+[21:14:20 060] [Manual - Unload Picker] Start
+[21:14:24 041] [Manual - Inspector] Start
+[21:14:27 524] [Main Dialog] Program Exit

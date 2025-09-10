@@ -1,0 +1,52 @@
+[14:50:17 075] [Main Dialog] Program Start..   Version(V3.4.13.s2)
+[14:50:52 693] [Main Dialog] Manual Mode start
+[14:50:55 678] [Manual - Flow] Start
+[15:15:36 272] [Main Dialog] Program Start..   Version(V3.4.13.s2)
+[15:15:39 594] [Main Dialog] Manual Mode start
+[15:15:51 315] [Manual - Picker3] Start
+[15:16:04 719] [Manual - Inspector] Start
+[15:16:12 053] [Main Dialog] Program Exit
+[16:03:14 581] [Main Dialog] Program Start..   Version(V3.4.13.s2)
+[16:03:17 994] [Main Dialog] Manual Mode start
+[16:03:19 017] [Manual - Loading] Start
+[16:03:19 389] [Manual - Load Picker] Start
+[16:03:20 111] [Manual - Loading] Start
+[16:03:21 284] [Manual - Load Picker] Start
+[16:03:21 955] [Manual - Loading] Start
+[16:03:22 461] [Manual - Load Picker] Start
+[16:03:26 915] [Manual - Inspector] Start
+[16:03:28 738] [Manual - Ng Good Picker] Start
+[16:03:30 758] [Manual - Unloading] Start
+[16:03:31 717] [Manual - Unload Picker] Start
+[16:03:32 634] [Manual - Unloading] Start
+[16:03:33 147] [Manual - Ng Good Picker] Start
+[16:03:33 448] [Manual - Inspector] Start
+[16:03:33 749] [Manual - Load Picker] Start
+[16:03:34 479] [Manual - Loading] Start
+[16:03:36 709] [Main Dialog] Program Exit
+[16:20:35 386] [Main Dialog] Program Start..   Version(V3.4.13.s2)
+[16:20:38 357] [Main Dialog] Manual Mode start
+[16:20:39 172] [Manual - Loading] Start
+[16:20:39 464] [Manual - Load Picker] Start
+[16:20:39 855] [Manual - Inspector] Start
+[16:20:40 251] [Manual - Ng Good Picker] Start
+[16:20:40 649] [Manual - Unloading] Start
+[16:20:41 034] [Manual - Unload Picker] Start
+[16:20:41 489] [Manual - Unloading] Start
+[16:20:41 811] [Manual - Ng Good Picker] Start
+[16:20:42 077] [Manual - Inspector] Start
+[16:20:42 346] [Manual - Load Picker] Start
+[16:20:42 553] [Manual - Loading] Start
+[16:27:20 968] [Main Dialog] Program Start..   Version(V3.4.13.s2)
+[16:27:24 018] [Main Dialog] Manual Mode start
+[16:27:25 102] [Manual - Loading] Start
+[16:27:25 409] [Manual - Load Picker] Start
+[16:27:25 794] [Manual - Inspector] Start
+[16:27:26 140] [Manual - Ng Good Picker] Start
+[16:27:26 489] [Manual - Unloading] Start
+[16:27:27 146] [Manual - Unload Picker] Start
+[16:27:27 585] [Manual - Unloading] Start
+[16:27:27 869] [Manual - Ng Good Picker] Start
+[16:27:28 148] [Manual - Inspector] Start
+[16:27:28 759] [Manual - Load Picker] Start
+[16:27:29 021] [Manual - Loading] Start

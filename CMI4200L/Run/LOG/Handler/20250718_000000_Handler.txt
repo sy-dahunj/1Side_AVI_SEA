@@ -1,0 +1,172 @@
+[18:56:47 346] [Main Dialog] Program Start..   Version(V3.4.18.s2)
+[18:56:58 817] [Initial Mode] START Button push
+[18:57:18 186] [Initial Sequence - Main] start
+[18:57:18 499] [Initial Sequence - Load2Run] start
+[18:57:18 500] [Initial Sequence - Unload2Run] start
+[18:57:18 501] [Initial Sequence - InspectRun] start
+[18:57:18 501] [Initial Sequence - NGPickerRun] start
+[18:57:18 503] [Initial Sequence - GDPickerRun] start
+[18:57:18 505] [Initial Sequence - LDPickerRun] start
+[18:57:18 507] [Initial Sequence - ULPickerRun] start
+[18:57:19 747] [Initial Sequence - Load1Run] start
+[18:57:19 747] [Initial Sequence - Unload1Run] start
+[18:57:19 777] [Initial Sequence - IndexTRun] start
+[18:57:19 777] [Initial Sequence - NGTrayRun] start
+[18:57:24 614] [Initial Mode] Initialization is complete
+[18:57:24 627] [Initial Sequence - Main] End
+[18:57:26 075] [Main Dialog] Work Mode start
+[18:57:35 063] [Operator] Program Exit button push....  LotID[LOT_ID] CM[0] OperID[]
+[18:57:35 064] [Main Dialog] Program Exit
+[19:02:05 597] [Main Dialog] Program Start..   Version(V3.4.18.s2)
+[19:04:19 318] [Initial Mode] START Button push
+[19:04:19 975] [Initial Sequence - Main] start
+[19:04:20 182] [Initial Sequence - Load2Run] start
+[19:04:20 182] [Initial Sequence - Unload2Run] start
+[19:04:20 183] [Initial Sequence - InspectRun] start
+[19:04:20 185] [Initial Sequence - NGPickerRun] start
+[19:04:20 185] [Initial Sequence - GDPickerRun] start
+[19:04:20 186] [Initial Sequence - LDPickerRun] start
+[19:04:20 186] [Initial Sequence - ULPickerRun] start
+[19:04:21 433] [Initial Sequence - Load1Run] start
+[19:04:21 434] [Initial Sequence - Unload1Run] start
+[19:04:21 464] [Initial Sequence - IndexTRun] start
+[19:04:21 465] [Initial Sequence - NGTrayRun] start
+[19:04:26 322] [Initial Sequence - Main] End
+[19:04:26 399] [Initial Mode] Initialization is complete
+[19:04:27 598] [Main Dialog] Work Mode start
+[19:04:31 432] [Operator] Operator ID Input....  LotID[LOT_ID] CM[0] OperID[KKKKBBBBB]
+[19:04:31 937] [Main Dialog] Setup Mode start
+[19:05:06 730] [Main Dialog] Work Mode start
+[19:05:10 523] [Work Mode] Lot ID Input....  LotID[HHHHHYYYY] CM[0] OperID[KKKKBBBBB]
+[19:05:14 707] [Work Mode] CMCnt push....  LotID[HHHHHYYYY] CM[55]
+[19:05:16 001] [Main Dialog] Setup Mode start
+[19:05:26 529] [Main Dialog] Work Mode start
+[19:05:28 491] [Work Mode] START button push....  LotID[HHHHHYYYY] CM[55] OperID[KKKKBBBBB]
+[19:05:28 651] Lot Started, LotID: HHHHHYYYY, StartTime : 20250718_190528, Tray Count:5, CM Count:55
+[19:05:30 457] [Work Mode] STOP button push
+[19:05:31 328] [Main Dialog] Setup Mode start
+[19:05:35 876] [Main Dialog] Work Mode start
+[19:05:37 279] [Work Mode] START button push....  LotID[HHHHHYYYY] CM[55] OperID[KKKKBBBBB]
+[19:05:51 179] [Error Mode] ==> (No : 9143) Seq(192-300-300-450-100  100-100-200-100-143  140-100) (Ver: V3.4.18.s2)
+[19:05:56 592] [Error Mode] OK button push
+[19:06:00 468] [Main Dialog] Manual Mode start
+[19:06:01 763] [Manual - Inspector] Start
+[19:06:04 682] [Main Dialog] Work Mode start
+[19:06:06 062] [Work Mode] START button push....  LotID[HHHHHYYYY] CM[55] OperID[KKKKBBBBB]
+[19:06:06 742] Tack=>,Index,0,Load_Pick,8179843,Inspect,8166812,Barcode,8166812,NG_Pick,8166812,Good_Pick,8166812,Unlaod_Pick,8166812
+[19:06:16 995] [Error Mode] ==> (No : 9143) Seq(192-300-300-450-100  100-100-200-100-143  140-100) (Ver: V3.4.18.s2)
+[19:06:18 650] [Error Mode] OK button push
+[19:06:20 210] [Main Dialog] Program Exit
+[19:07:45 774] [Main Dialog] Program Start..   Version(V3.4.18.s2)
+[19:07:49 491] [Main Dialog] Program Exit
+[19:08:25 575] [Main Dialog] Program Start..   Version(V3.4.18.s2)
+[19:08:29 057] [Initial Mode] START Button push
+[19:08:29 783] [Initial Sequence - Main] start
+[19:08:30 005] [Initial Sequence - Load2Run] start
+[19:08:30 006] [Initial Sequence - Unload2Run] start
+[19:08:30 006] [Initial Sequence - InspectRun] start
+[19:08:30 007] [Initial Sequence - NGPickerRun] start
+[19:08:30 009] [Initial Sequence - GDPickerRun] start
+[19:08:30 010] [Initial Sequence - LDPickerRun] start
+[19:08:30 011] [Initial Sequence - ULPickerRun] start
+[19:08:31 244] [Initial Sequence - Load1Run] start
+[19:08:31 244] [Initial Sequence - Unload1Run] start
+[19:08:31 274] [Initial Sequence - IndexTRun] start
+[19:08:31 274] [Initial Sequence - NGTrayRun] start
+[19:08:36 150] [Initial Sequence - Main] End
+[19:08:36 218] [Initial Mode] Initialization is complete
+[19:08:36 852] [Main Dialog] Work Mode start
+[19:08:40 322] [Operator] Operator ID Input....  LotID[LOT_ID] CM[0] OperID[HHHHBBBBB]
+[19:08:41 042] [Main Dialog] Setup Mode start
+[19:08:42 856] [Main Dialog] Work Mode start
+[19:08:46 511] [Work Mode] Lot ID Input....  LotID[JJJJBBBB] CM[0] OperID[HHHHBBBBB]
+[19:08:48 270] [Work Mode] CMCnt push....  LotID[JJJJBBBB] CM[55]
+[19:08:49 811] [Work Mode] START button push....  LotID[JJJJBBBB] CM[55] OperID[HHHHBBBBB]
+[19:08:49 921] Lot Started, LotID: JJJJBBBB, StartTime : 20250718_190849, Tray Count:5, CM Count:55
+[19:09:00 144] Tack=>,Index,0,Load_Pick,8373406,Inspect,8368078,Barcode,8368078,NG_Pick,8368078,Good_Pick,8368078,Unlaod_Pick,8368078
+[19:09:06 004] Tack=>,Index,5860,Load_Pick,1063,Inspect,360,Barcode,360,NG_Pick,204,Good_Pick,204,Unlaod_Pick,204
+[19:09:11 819] Tack=>,Index,5828,Load_Pick,1047,Inspect,344,Barcode,344,NG_Pick,250,Good_Pick,187,Unlaod_Pick,187
+[19:09:17 670] Tack=>,Index,5844,Load_Pick,1062,Inspect,359,Barcode,359,NG_Pick,266,Good_Pick,187,Unlaod_Pick,187
+[19:09:23 561] Tack=>,Index,5890,Load_Pick,1078,Inspect,343,Barcode,343,NG_Pick,250,Good_Pick,187,Unlaod_Pick,187
+[19:09:29 383] Tack=>,Index,5828,Load_Pick,1110,Inspect,344,Barcode,344,NG_Pick,266,Good_Pick,203,Unlaod_Pick,203
+[19:09:33 347] [Main Dialog] Program Exit
+[19:09:45 496] [Main Dialog] Program Start..   Version(V3.4.18.s2)
+[19:09:48 635] [Main Dialog] Setup Mode start
+[19:09:54 151] [Main Dialog] Work Mode start
+[19:09:58 051] [Work Mode] Lot ID Input....  LotID[HHHHJJJJ] CM[0] OperID[]
+[19:10:00 079] [Work Mode] CMCnt push....  LotID[HHHHJJJJ] CM[55]
+[19:10:03 009] [Main Dialog] Initial Mode start
+[19:10:03 668] [Initial Mode] START Button push
+[19:10:04 279] [Initial Sequence - Main] start
+[19:10:04 499] [Initial Sequence - Load2Run] start
+[19:10:04 499] [Initial Sequence - Unload2Run] start
+[19:10:04 500] [Initial Sequence - InspectRun] start
+[19:10:04 500] [Initial Sequence - NGPickerRun] start
+[19:10:04 501] [Initial Sequence - GDPickerRun] start
+[19:10:04 502] [Initial Sequence - LDPickerRun] start
+[19:10:04 503] [Initial Sequence - ULPickerRun] start
+[19:10:05 742] [Initial Sequence - Load1Run] start
+[19:10:05 743] [Initial Sequence - Unload1Run] start
+[19:10:05 772] [Initial Sequence - IndexTRun] start
+[19:10:05 773] [Initial Sequence - NGTrayRun] start
+[19:10:10 664] [Initial Sequence - Main] End
+[19:10:10 688] [Initial Mode] Initialization is complete
+[19:10:11 282] [Main Dialog] Work Mode start
+[19:10:14 703] [Operator] Operator ID Input....  LotID[HHHHJJJJ] CM[55] OperID[HHHHGGGG]
+[19:10:15 109] [Main Dialog] Setup Mode start
+[19:10:17 070] [Main Dialog] Work Mode start
+[19:10:19 335] [Work Mode] START button push....  LotID[HHHHJJJJ] CM[55] OperID[HHHHGGGG]
+[19:10:19 377] Lot Started, LotID: HHHHJJJJ, StartTime : 20250718_191019, Tray Count:5, CM Count:55
+[19:10:29 647] Tack=>,Index,0,Load_Pick,8462953,Inspect,8457546,Barcode,8457546,NG_Pick,8457546,Good_Pick,8457546,Unlaod_Pick,8457546
+[19:10:35 531] Tack=>,Index,5875,Load_Pick,1094,Inspect,344,Barcode,344,NG_Pick,203,Good_Pick,203,Unlaod_Pick,203
+[19:10:35 759] NG Picker 0 => I(131313131313) P(00000)
+[19:10:36 050] NG Picker 2 => I(131313131313) P(00000) NG(000000) J(11111) Tray:1 Picker:1 TraypOS(3)
+[19:10:36 753] NG Picker 3 => I(0000013) P(1313131313) NG(000000) Tray:1 Picker:1 XPos(428.200) TraypOS(3) Seq(200)
+[19:10:37 317] NG Picker 4 => I(0000013) P(013131313) NG(000000) Tray:1 Picker:1 XPos(185.600) TraypOS(2)
+[19:10:37 880] NG Picker 4 => I(0000013) P(00131313) NG(000000) Tray:2 Picker:2 XPos(183.000) TraypOS(2)
+[19:10:38 415] NG Picker 4 => I(0000013) P(0001313) NG(000000) Tray:3 Picker:3 XPos(180.400) TraypOS(2)
+[19:10:38 952] NG Picker 4 => I(0000013) P(000013) NG(000000) Tray:4 Picker:4 XPos(177.800) TraypOS(2)
+[19:10:39 504] NG Picker 4 => I(0000013) P(00000) NG(000000) Tray:5 Picker:5 XPos(175.200) TraypOS(2)
+[19:10:39 685] NG Picker 0 => I(0000013) P(00000)
+[19:10:39 977] NG Picker 2 => I(0000013) P(00000) NG(000000) J(10000) Tray:6 Picker:1 TraypOS(2)
+[19:10:40 694] NG Picker 3 => I(000000) P(130000) NG(000000) Tray:6 Picker:1 XPos(273.200) TraypOS(2) Seq(200)
+[19:10:41 336] NG Picker 4 => I(000000) P(00000) NG(000000) Tray:6 Picker:1 XPos(17.600) TraypOS(2)
+[19:10:41 488] Tack=>,Index,5953,Load_Pick,1094,Inspect,359,Barcode,359,NG_Pick,5234,Good_Pick,188,Unlaod_Pick,188
+[19:10:41 842] NG Picker 0 => I(131313131313) P(00000)
+[19:10:42 071] NG Picker 2 => I(131313131313) P(00000) NG(000000) J(11111) Tray:1 Picker:1 TraypOS(2)
+[19:10:42 802] NG Picker 3 => I(0000013) P(1313131313) NG(000000) Tray:1 Picker:1 XPos(428.200) TraypOS(2) Seq(200)
+[19:10:43 446] NG Picker 4 => I(0000013) P(013131313) NG(000000) Tray:6 Picker:1 XPos(17.600) TraypOS(2)
+[19:10:43 997] NG Picker 4 => I(0000013) P(00131313) NG(000000) Tray:5 Picker:2 XPos(82.200) TraypOS(2)
+[19:10:44 537] NG Picker 4 => I(0000013) P(0001313) NG(000000) Tray:4 Picker:3 XPos(146.800) TraypOS(2)
+[19:10:45 073] NG Picker 4 => I(0000013) P(000013) NG(000000) Tray:3 Picker:4 XPos(211.400) TraypOS(2)
+[19:10:45 588] NG Picker 4 => I(0000013) P(00000) NG(000000) Tray:2 Picker:5 XPos(276.000) TraypOS(2)
+[19:10:45 788] NG Picker 0 => I(0000013) P(00000)
+[19:10:46 094] NG Picker 2 => I(0000013) P(00000) NG(000000) J(10000) Tray:6 Picker:1 TraypOS(2)
+[19:10:46 843] NG Picker 3 => I(000000) P(130000) NG(000000) Tray:6 Picker:1 XPos(273.200) TraypOS(2) Seq(200)
+[19:10:47 429] NG Picker 4 => I(000000) P(00000) NG(000000) Tray:1 Picker:1 XPos(185.600) TraypOS(2)
+[19:10:47 564] Tack=>,Index,6078,Load_Pick,1156,Inspect,375,Barcode,375,NG_Pick,5422,Good_Pick,219,Unlaod_Pick,219
+[19:10:47 884] NG Picker 0 => I(131313131313) P(00000)
+[19:10:48 114] NG Picker 2 => I(131313131313) P(00000) NG(000000) J(11111) Tray:1 Picker:1 TraypOS(2)
+[19:10:48 813] NG Picker 3 => I(0000013) P(1313131313) NG(000000) Tray:1 Picker:1 XPos(428.200) TraypOS(2) Seq(200)
+[19:10:50 043] [Error Mode] ==> (No : 9500) Seq(370-192-300-450-100  221-100-200-100-140  320-100) (Ver: V3.4.18.s2)
+[19:10:51 963] [Error Mode] OK button push
+[19:10:55 093] [Main Dialog] Program Exit
+[19:11:34 175] [Main Dialog] Program Start..   Version(V3.4.18.s2)
+[19:11:37 459] [Initial Mode] START Button push
+[19:11:38 012] [Initial Sequence - Main] start
+[19:11:38 213] [Initial Sequence - Load2Run] start
+[19:11:38 213] [Initial Sequence - Unload2Run] start
+[19:11:38 215] [Initial Sequence - InspectRun] start
+[19:11:38 216] [Initial Sequence - NGPickerRun] start
+[19:11:38 217] [Initial Sequence - GDPickerRun] start
+[19:11:38 217] [Initial Sequence - LDPickerRun] start
+[19:11:38 218] [Initial Sequence - ULPickerRun] start
+[19:11:39 436] [Initial Sequence - Load1Run] start
+[19:11:39 497] [Initial Sequence - Unload1Run] start
+[19:11:39 527] [Initial Sequence - IndexTRun] start
+[19:11:39 527] [Initial Sequence - NGTrayRun] start
+[19:11:44 375] [Initial Sequence - Main] End
+[19:11:44 390] [Initial Mode] Initialization is complete
+[19:11:45 021] [Main Dialog] Work Mode start
+[19:11:48 286] [Operator] Operator ID Input....  LotID[LOT_ID] CM[0] OperID[HHHHJJJJ]
+[19:13:07 347] [Main Dialog] Program Exit
