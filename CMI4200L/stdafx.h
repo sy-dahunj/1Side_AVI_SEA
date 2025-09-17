@@ -65,7 +65,7 @@
 #define SIM_WAITTIMES	 1		//
 #define SIM_WAITTIMEM	 1		//
 
-//#define AJIN_BOARD_USE
+#define AJIN_BOARD_USE
 
 //SEA Model Only
 
@@ -73,12 +73,12 @@
 #define EQ_TYPE_S2		//SEA
 
 #if defined(EQ_TYPE_S1)
-	#define MAIN_VERSION	"V3.4.18.s1"
+	#define MAIN_VERSION	"V3.4.21.s1"
 	#define PICKER_6		// Load/Unload Picker 6
 	#define GD_PICKER_5		// Good Picker 5
 	#define NG_PICKER_5		// NG Picker 5
 #elif defined(EQ_TYPE_S2)
-	#define MAIN_VERSION	"V3.4.18.s2"
+	#define MAIN_VERSION	"V3.4.21.s2"
 	#define ALIGN_NEW		// Main Air 2개 (기본 1개), 스테이지 Master/Slave I/O 순서 뒤바뀌어 있음.
 	#define TRAY_CHECK2		// Tray Check Sensor 2개 (기본 1개)
 	#define PICKER_6		// Load/Unload Picker 6

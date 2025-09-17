@@ -1,20 +1,80 @@
-﻿빌드 시작: 2025-09-10 오전 9:11:57
-     1>2 노드의 "C:\Users\USER\Desktop\2.Git\SEA_1SIDE\CMI4200L\CMI4200L.vcxproj" 프로젝트(build 대상)입니다.
+﻿빌드 시작: 2025-09-18 오전 8:44:27
+     1>2 노드의 "C:\Users\USER\Desktop\2.Git\1Side_SEA_SY\CMI4200L\CMI4200L.vcxproj" 프로젝트(build 대상)입니다.
      1>InitializeBuildStatus:
          "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\CMI4200L.unsuccessfulbuild"을(를) 만들고 있습니다.
        ClCompile:
-         모든 출력이 최신 상태입니다.
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\CMI4200L_Handler_D.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt SequenceMain.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\CMI4200L_Handler_D.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\CMI4200L_Handler_D.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AJinAXL.cpp Barcode_DS1100.cpp CMI4200L.cpp CMI4200LDlg.cpp CapAttachUDP.cpp Common.cpp Data.cpp DataManager.cpp DataSocket.cpp ErrorDlg.cpp ExtBarcode_Honeywell.cpp InitialDlg.cpp Inspector.cpp KeyPadDlg.cpp LedStatic.cpp ListBoxDlg.cpp LogFile.cpp MESInterface.cpp ManualDlg.cpp Manual_InspectorDlg.cpp Manual_LoadPickerDlg.cpp Manual_LoadingDlg.cpp Manual_NgGoodPickerDlg.cpp Manual_UnloadPickerDlg.cpp Manual_UnloadingDlg.cpp MinidumpHelp.cpp MonitorDlg.cpp MonitorInOutDlg.cpp MonitorInOutTabDlg.cpp MonitorLogDlg.cpp MonitorMotionDlg.cpp MonitorMotionTabDlg.cpp MsgBoxDlg.cpp NumPadDlg.cpp OperatorDlg.cpp PasswordDlg.cpp PauseDlg.cpp SequenceInit.cpp SequenceMain.cpp SerialInterface.cpp SetupDlg.cpp SetupEquipDlg.cpp SetupInOutDlg.cpp SetupInOutTabDlg.cpp SetupModelDlg.cpp SetupMotionDlg.cpp SetupMotionTabDlg.cpp SetupMoveDlg.cpp SetupMoveTab1Dlg.cpp SetupMoveTab2Dlg.cpp SetupMoveTab3Dlg.cpp SetupMoveTab4Dlg.cpp SocketTCP.cpp SplashDlg.cpp WorkDlg.cpp
+         WorkDlg.cpp
+         SplashDlg.cpp
+         SocketTCP.cpp
+         SetupMoveTab4Dlg.cpp
+         SetupMoveTab3Dlg.cpp
+         SetupMoveTab2Dlg.cpp
+         SetupMoveTab1Dlg.cpp
+         SetupMoveDlg.cpp
+         SetupMotionTabDlg.cpp
+         SetupMotionDlg.cpp
+         SetupModelDlg.cpp
+         SetupInOutTabDlg.cpp
+         SetupInOutDlg.cpp
+         SetupEquipDlg.cpp
+         SetupDlg.cpp
+         SerialInterface.cpp
          SequenceMain.cpp
-     1>c:\users\user\desktop\2.git\sea_1side\cmi4200l\sequencemain.cpp(6960): warning C4552: '+' : 의미 없는 연산자입니다. 파생 작업이 있는 연산자여야 합니다.
-     1>c:\users\user\desktop\2.git\sea_1side\cmi4200l\sequencemain.cpp(6993): warning C4552: '+' : 의미 없는 연산자입니다. 파생 작업이 있는 연산자여야 합니다.
-     1>c:\users\user\desktop\2.git\sea_1side\cmi4200l\sequencemain.cpp(7067): warning C4552: '+' : 의미 없는 연산자입니다. 파생 작업이 있는 연산자여야 합니다.
+     1>c:\users\user\desktop\2.git\1side_sea_sy\cmi4200l\sequencemain.cpp(6960): warning C4552: '+' : 의미 없는 연산자입니다. 파생 작업이 있는 연산자여야 합니다.
+     1>c:\users\user\desktop\2.git\1side_sea_sy\cmi4200l\sequencemain.cpp(6993): warning C4552: '+' : 의미 없는 연산자입니다. 파생 작업이 있는 연산자여야 합니다.
+     1>c:\users\user\desktop\2.git\1side_sea_sy\cmi4200l\sequencemain.cpp(7067): warning C4552: '+' : 의미 없는 연산자입니다. 파생 작업이 있는 연산자여야 합니다.
+         SequenceInit.cpp
+         PauseDlg.cpp
+         PasswordDlg.cpp
+         코드를 생성하고 있습니다...
+         컴파일하고 있습니다...
+         OperatorDlg.cpp
+         NumPadDlg.cpp
+         MsgBoxDlg.cpp
+         MonitorMotionTabDlg.cpp
+         MonitorMotionDlg.cpp
+         MonitorLogDlg.cpp
+         MonitorInOutTabDlg.cpp
+         MonitorInOutDlg.cpp
+         MonitorDlg.cpp
+         MinidumpHelp.cpp
+         Manual_UnloadingDlg.cpp
+         Manual_UnloadPickerDlg.cpp
+         Manual_NgGoodPickerDlg.cpp
+         Manual_LoadingDlg.cpp
+         Manual_LoadPickerDlg.cpp
+         Manual_InspectorDlg.cpp
+         ManualDlg.cpp
+         MESInterface.cpp
+         LogFile.cpp
+         ListBoxDlg.cpp
+         코드를 생성하고 있습니다...
+         컴파일하고 있습니다...
+         LedStatic.cpp
+         KeyPadDlg.cpp
+         Inspector.cpp
+         InitialDlg.cpp
+         ExtBarcode_Honeywell.cpp
+         ErrorDlg.cpp
+         DataSocket.cpp
+         DataManager.cpp
+         Data.cpp
+         Common.cpp
+         CapAttachUDP.cpp
+         CMI4200LDlg.cpp
+         CMI4200L.cpp
+         Barcode_DS1100.cpp
+         AJinAXL.cpp
+         코드를 생성하고 있습니다...
        ResourceCompile:
          모든 출력이 최신 상태입니다.
        ManifestResourceCompile:
          모든 출력이 최신 상태입니다.
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Run\CMI4200L_Handler_D.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\CMI4200L_Handler_D.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\USER\Desktop\2.Git\SEA_1SIDE\CMI4200L\Run\CMI4200L_Handler_D.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Run\CMI4200L_Handler_D.lib" /MACHINE:X86 Debug\CMI4200L.res
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Run\CMI4200L_Handler_D.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\CMI4200L_Handler_D.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\USER\Desktop\2.Git\1Side_SEA_SY\CMI4200L\Run\CMI4200L_Handler_D.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Run\CMI4200L_Handler_D.lib" /MACHINE:X86 Debug\CMI4200L.res
          Debug\CMI4200L_Handler_D.exe.embed.manifest.res
          Debug\AJinAXL.obj
          Debug\Barcode_DS1100.obj
@@ -77,12 +137,12 @@
          모든 출력이 최신 상태입니다.
        LinkEmbedManifest:
          모든 출력이 최신 상태입니다.
-         CMI4200L.vcxproj -> C:\Users\USER\Desktop\2.Git\SEA_1SIDE\CMI4200L\Run\CMI4200L_Handler_D.exe
+         CMI4200L.vcxproj -> C:\Users\USER\Desktop\2.Git\1Side_SEA_SY\CMI4200L\Run\CMI4200L_Handler_D.exe
        FinalizeBuildStatus:
          "Debug\CMI4200L.unsuccessfulbuild" 파일을 삭제하고 있습니다.
          "Debug\CMI4200L.lastbuildstate"에 연결(touching)하고 있습니다.
-     1>"C:\Users\USER\Desktop\2.Git\SEA_1SIDE\CMI4200L\CMI4200L.vcxproj" 프로젝트를 빌드했습니다(build 대상).
+     1>"C:\Users\USER\Desktop\2.Git\1Side_SEA_SY\CMI4200L\CMI4200L.vcxproj" 프로젝트를 빌드했습니다(build 대상).
 
 빌드했습니다.
 
-경과 시간: 00:00:01.92
+경과 시간: 00:00:18.53

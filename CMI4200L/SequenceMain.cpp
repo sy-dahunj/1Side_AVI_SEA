@@ -5186,7 +5186,7 @@ BOOL CSequenceMain::ULPicker_Run()
 					}
 					//g_objMES.Set_Result(gLot.sLotID, gLot.sBarLoad[nTNo][nPno], "OK", gLot.sNGCode[nTNo][nPno], gLot.sNGText[nTNo][nPno], nTNo+1, nPno+1, gData.nGoodTrayNo, nGdPos, 0,0);
 					pLogFile->Save_CmTrackingLog("GOOD", gData.nGoodTrayCount+1, i+1, w+1, gData.PickerUnTrayNo[i], gData.PickerUnPoNo[i]);
-					//g_objMES.Save_ProcessedData(gLot.sLotID, gLot.sBarLoad[nTNo][nPno], "OK", gLot.sNGCode[nTNo][nPno], gLot.sNGText[nTNo][nPno], nTNo+1, nPno+1, gData.nGoodTrayNo, nGdPos, 0,0);
+					g_objMES.Save_ProcessedData(gLot.sLotID, gLot.sBarLoad[nTNo][nPno], "OK", gLot.sNGCode[nTNo][nPno], gLot.sNGText[nTNo][nPno], nTNo+1, nPno+1, gData.nGoodTrayNo, nGdPos, 0,0);
 					m_nUnloadLotCmCnt++;
 				}
 			}
