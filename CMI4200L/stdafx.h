@@ -69,8 +69,8 @@
 
 //SEA Model Only
 
-//#define EQ_TYPE_S1	//SEA
-#define EQ_TYPE_S2		//SEA
+#define EQ_TYPE_S1	//SEA
+//#define EQ_TYPE_S2		//SEA
 
 #if defined(EQ_TYPE_S1)
 	#define MAIN_VERSION	"V3.4.21.s1"
