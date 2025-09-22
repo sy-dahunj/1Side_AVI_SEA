@@ -3731,7 +3731,7 @@ BOOL CSequenceMain::NGPicker_Run()
 			
 			pLogFile->Save_CmTrackingLog("NG", gData.nNGTrayPos, gData.NGIdxNo, nYY, gData.PickerNGTrayNo, gData.PickerNGPoNo[gData.NGPicNo-1]);
 
-			if(gLot.sNGCode[nTNo][nPno] == "16")
+			if(gData.PickerInfor[1][gData.NGPicNo-1] == 16)
 			{
 				g_objMES.Save_ProcessedData(gLot.sLotID, gLot.sBarLoad[nTNo][nPno], "NG", gLot.sNGCode[nTNo][nPno], gLot.sNGText[nTNo][nPno], nTNo+1, nPno+1, 0,0, gData.nNGTrayPos, nNGPos);
 			}
