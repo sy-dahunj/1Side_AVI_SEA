@@ -220,6 +220,7 @@ BEGIN_MESSAGE_MAP(CWorkDlg, CDialogEx)
 
 	ON_BN_CLICKED(IDC_BUTTON1, &CWorkDlg::OnBnClickedButton1)
 	ON_BN_CLICKED(IDC_CHK_HUNDRED_SCAN, &CWorkDlg::OnBnClickedChkHundredScan)
+	ON_BN_CLICKED(IDC_BTN_SEND1, &CWorkDlg::OnBnClickedBtnSend1)
 END_MESSAGE_MAP()
 
 // CWorkDlg 메시지 처리기입니다.
@@ -256,6 +257,30 @@ BOOL CWorkDlg::OnInitDialog()
 	gData.nTrayJobCount = gData.nCMJobCount = 0;
 	m_sCurLotID = "";
 	gData.nLotIdsIndex = 0;
+
+	if (!AfxSocketInit()) {
+		AfxMessageBox(("Winsock 초기화 실패"));
+		return FALSE;
+	}
+
+#ifdef AJIN_BOARD_USE
+	CString ip = "192.168.1.12";
+	UINT port = 21000;
+#else
+	CString ip = "127.0.0.1";
+	UINT port = 21000;
+#endif
+
+	if (!m_sender.Create()) { AfxMessageBox("소켓 생성 실패"); return FALSE; }
+
+	if (m_sender.Connect(ip, port) == FALSE) 
+	{
+		if (GetLastError() != WSAEWOULDBLOCK) 
+		{
+			AfxMessageBox("Connect 실패");
+			return FALSE;
+		}
+	}
 
 #ifdef PICKER_5
 	m_ledIndexSlot[0][5].ShowWindow(FALSE);
@@ -1685,4 +1710,17 @@ void CWorkDlg::OnBnClickedChkHundredScan()
 	{
 		gData.bUse100ScanRun = FALSE;
 	}
+}
+
+
+void CWorkDlg::OnBnClickedBtnSend1()
+{
+	CString filePath = _T("D:\\MES\\RecipeDownload\\RECIPEDOWNLOAD_20250904_09333865.ini");
+    m_sender.SendFile(filePath);
+}
+void CWorkDlg::FileSend()
+{	
+	CString filePath;
+	filePath = g_objMES.m_sMESDownLoadFile;
+    m_sender.SendFile(filePath);
 }

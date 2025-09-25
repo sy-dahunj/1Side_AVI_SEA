@@ -2,7 +2,7 @@
 //
 
 #pragma once
-
+#include "FileSendSocket.h"
 #define UM_UPDATE_MODEL			WM_USER+1
 #define UM_UPDATE_RFID			WM_USER+2
 #define	UM_UPDATE_JOB_LIST		WM_USER+3
@@ -147,8 +147,12 @@ public:
 	void Add_ShifeError();
 	void AutoStop();
 	void Clear_LotInfo();
+	void FileSend();
+
+	CFileSendSocket m_sender;
 	afx_msg void OnBnClickedButton1();
 	afx_msg void OnBnClickedChkHundredScan();
+	afx_msg void OnBnClickedBtnSend1();
 };
 
 ///////////////////////////////////////////////////////////////////////////////
