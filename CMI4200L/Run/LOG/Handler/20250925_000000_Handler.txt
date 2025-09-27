@@ -1,0 +1,9 @@
+[19:36:58 283] [Main Dialog] Program Start..   Version(V3.4.21.s1)
+[19:36:59 306] Door Lock을 Auto로 설정 하였습니다...
+[19:36:59 517] [Main Dialog] Program Exit
+[19:37:07 843] [Main Dialog] Program Start..   Version(V3.4.21.s1)
+[19:37:08 859] Door Lock을 Auto로 설정 하였습니다...
+[19:37:09 669] [Main Dialog] Program Exit
+[19:38:06 836] [Main Dialog] Program Start..   Version(V3.4.22.s2)
+[19:38:11 385] [Main Dialog] Work Mode start
+[19:38:25 356] [Main Dialog] Program Exit

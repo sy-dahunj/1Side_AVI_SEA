@@ -1,4 +1,4 @@
-﻿빌드 시작: 2025-09-27 오전 11:26:28
+﻿빌드 시작: 2025-09-27 오전 11:36:25
      1>2 노드의 "C:\Users\USER\Desktop\2.Git\1Side_SEA_SY\CMI4200L\CMI4200L.vcxproj" 프로젝트(build 대상)입니다.
      1>InitializeBuildStatus:
          "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\CMI4200L.unsuccessfulbuild"을(를) 만들고 있습니다.
@@ -7,7 +7,30 @@
          stdafx.cpp
          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\CMI4200L_Handler_D.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AJinAXL.cpp Barcode_DS1100.cpp CapAttachUDP.cpp Common.cpp Data.cpp DataManager.cpp DataSocket.cpp ErrorDlg.cpp ExtBarcode_Honeywell.cpp FileSendSocket.cpp InitialDlg.cpp Inspector.cpp KeyPadDlg.cpp LedStatic.cpp ListBoxDlg.cpp LogFile.cpp ManualDlg.cpp Manual_InspectorDlg.cpp Manual_UnloadingDlg.cpp Manual_LoadingDlg.cpp Manual_LoadPickerDlg.cpp Manual_UnloadPickerDlg.cpp Manual_NgGoodPickerDlg.cpp MESInterface.cpp MinidumpHelp.cpp MonitorDlg.cpp MonitorInOutDlg.cpp MonitorInOutTabDlg.cpp MonitorLogDlg.cpp MonitorMotionDlg.cpp MonitorMotionTabDlg.cpp MsgBoxDlg.cpp NumPadDlg.cpp OperatorDlg.cpp PasswordDlg.cpp CMI4200L.cpp CMI4200LDlg.cpp PauseDlg.cpp SequenceInit.cpp SequenceMain.cpp SerialInterface.cpp SetupDlg.cpp SetupEquipDlg.cpp SetupInOutDlg.cpp SetupInOutTabDlg.cpp SetupModelDlg.cpp SetupMotionDlg.cpp SetupMotionTabDlg.cpp SetupMoveDlg.cpp SetupMoveTab1Dlg.cpp SetupMoveTab2Dlg.cpp SetupMoveTab3Dlg.cpp SetupMoveTab4Dlg.cpp SocketTCP.cpp SplashDlg.cpp WorkDlg.cpp
          WorkDlg.cpp
-     1>c:\users\user\desktop\2.git\1side_sea_sy\cmi4200l\filesendsocket.h(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'NetEndian.h': No such file or directory
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(72): warning C4005: 'INT8_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(144) : 'INT8_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(73): warning C4005: 'INT16_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(146) : 'INT16_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(74): warning C4005: 'INT32_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(148) : 'INT32_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(76): warning C4005: 'INT8_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(167) : 'INT8_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(77): warning C4005: 'INT16_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(171) : 'INT16_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(78): warning C4005: 'INT32_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(176) : 'INT32_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(79): warning C4005: 'UINT8_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(168) : 'UINT8_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(80): warning C4005: 'UINT16_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(173) : 'UINT16_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(81): warning C4005: 'UINT32_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(178) : 'UINT32_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(149): warning C4005: 'INT64_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(152) : 'INT64_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(150): warning C4005: 'INT64_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(184) : 'INT64_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(151): warning C4005: 'UINT64_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(189) : 'UINT64_MAX'의 이전 정의를 참조하십시오.
          SplashDlg.cpp
          SocketTCP.cpp
          SetupMoveTab4Dlg.cpp
@@ -21,25 +44,212 @@
          SetupInOutTabDlg.cpp
          SetupInOutDlg.cpp
          SetupEquipDlg.cpp
-     1>c:\users\user\desktop\2.git\1side_sea_sy\cmi4200l\filesendsocket.h(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'NetEndian.h': No such file or directory
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(72): warning C4005: 'INT8_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(144) : 'INT8_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(73): warning C4005: 'INT16_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(146) : 'INT16_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(74): warning C4005: 'INT32_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(148) : 'INT32_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(76): warning C4005: 'INT8_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(167) : 'INT8_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(77): warning C4005: 'INT16_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(171) : 'INT16_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(78): warning C4005: 'INT32_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(176) : 'INT32_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(79): warning C4005: 'UINT8_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(168) : 'UINT8_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(80): warning C4005: 'UINT16_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(173) : 'UINT16_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(81): warning C4005: 'UINT32_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(178) : 'UINT32_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(149): warning C4005: 'INT64_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(152) : 'INT64_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(150): warning C4005: 'INT64_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(184) : 'INT64_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(151): warning C4005: 'UINT64_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(189) : 'UINT64_MAX'의 이전 정의를 참조하십시오.
          SetupDlg.cpp
-     1>c:\users\user\desktop\2.git\1side_sea_sy\cmi4200l\filesendsocket.h(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'NetEndian.h': No such file or directory
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(72): warning C4005: 'INT8_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(144) : 'INT8_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(73): warning C4005: 'INT16_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(146) : 'INT16_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(74): warning C4005: 'INT32_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(148) : 'INT32_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(76): warning C4005: 'INT8_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(167) : 'INT8_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(77): warning C4005: 'INT16_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(171) : 'INT16_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(78): warning C4005: 'INT32_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(176) : 'INT32_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(79): warning C4005: 'UINT8_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(168) : 'UINT8_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(80): warning C4005: 'UINT16_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(173) : 'UINT16_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(81): warning C4005: 'UINT32_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(178) : 'UINT32_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(149): warning C4005: 'INT64_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(152) : 'INT64_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(150): warning C4005: 'INT64_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(184) : 'INT64_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(151): warning C4005: 'UINT64_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(189) : 'UINT64_MAX'의 이전 정의를 참조하십시오.
          SerialInterface.cpp
          SequenceMain.cpp
-     1>c:\users\user\desktop\2.git\1side_sea_sy\cmi4200l\filesendsocket.h(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'NetEndian.h': No such file or directory
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(72): warning C4005: 'INT8_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(144) : 'INT8_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(73): warning C4005: 'INT16_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(146) : 'INT16_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(74): warning C4005: 'INT32_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(148) : 'INT32_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(76): warning C4005: 'INT8_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(167) : 'INT8_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(77): warning C4005: 'INT16_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(171) : 'INT16_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(78): warning C4005: 'INT32_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(176) : 'INT32_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(79): warning C4005: 'UINT8_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(168) : 'UINT8_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(80): warning C4005: 'UINT16_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(173) : 'UINT16_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(81): warning C4005: 'UINT32_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(178) : 'UINT32_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(149): warning C4005: 'INT64_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(152) : 'INT64_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(150): warning C4005: 'INT64_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(184) : 'INT64_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(151): warning C4005: 'UINT64_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(189) : 'UINT64_MAX'의 이전 정의를 참조하십시오.
+     1>c:\users\user\desktop\2.git\1side_sea_sy\cmi4200l\sequencemain.cpp(6964): warning C4552: '+' : 의미 없는 연산자입니다. 파생 작업이 있는 연산자여야 합니다.
+     1>c:\users\user\desktop\2.git\1side_sea_sy\cmi4200l\sequencemain.cpp(6997): warning C4552: '+' : 의미 없는 연산자입니다. 파생 작업이 있는 연산자여야 합니다.
+     1>c:\users\user\desktop\2.git\1side_sea_sy\cmi4200l\sequencemain.cpp(7071): warning C4552: '+' : 의미 없는 연산자입니다. 파생 작업이 있는 연산자여야 합니다.
          SequenceInit.cpp
-     1>c:\users\user\desktop\2.git\1side_sea_sy\cmi4200l\filesendsocket.h(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'NetEndian.h': No such file or directory
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(72): warning C4005: 'INT8_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(144) : 'INT8_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(73): warning C4005: 'INT16_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(146) : 'INT16_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(74): warning C4005: 'INT32_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(148) : 'INT32_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(76): warning C4005: 'INT8_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(167) : 'INT8_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(77): warning C4005: 'INT16_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(171) : 'INT16_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(78): warning C4005: 'INT32_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(176) : 'INT32_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(79): warning C4005: 'UINT8_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(168) : 'UINT8_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(80): warning C4005: 'UINT16_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(173) : 'UINT16_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(81): warning C4005: 'UINT32_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(178) : 'UINT32_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(149): warning C4005: 'INT64_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(152) : 'INT64_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(150): warning C4005: 'INT64_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(184) : 'INT64_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(151): warning C4005: 'UINT64_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(189) : 'UINT64_MAX'의 이전 정의를 참조하십시오.
          PauseDlg.cpp
-     1>c:\users\user\desktop\2.git\1side_sea_sy\cmi4200l\filesendsocket.h(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'NetEndian.h': No such file or directory
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(72): warning C4005: 'INT8_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(144) : 'INT8_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(73): warning C4005: 'INT16_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(146) : 'INT16_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(74): warning C4005: 'INT32_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(148) : 'INT32_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(76): warning C4005: 'INT8_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(167) : 'INT8_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(77): warning C4005: 'INT16_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(171) : 'INT16_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(78): warning C4005: 'INT32_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(176) : 'INT32_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(79): warning C4005: 'UINT8_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(168) : 'UINT8_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(80): warning C4005: 'UINT16_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(173) : 'UINT16_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(81): warning C4005: 'UINT32_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(178) : 'UINT32_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(149): warning C4005: 'INT64_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(152) : 'INT64_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(150): warning C4005: 'INT64_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(184) : 'INT64_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(151): warning C4005: 'UINT64_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(189) : 'UINT64_MAX'의 이전 정의를 참조하십시오.
          CMI4200LDlg.cpp
-     1>c:\users\user\desktop\2.git\1side_sea_sy\cmi4200l\filesendsocket.h(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'NetEndian.h': No such file or directory
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(72): warning C4005: 'INT8_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(144) : 'INT8_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(73): warning C4005: 'INT16_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(146) : 'INT16_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(74): warning C4005: 'INT32_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(148) : 'INT32_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(76): warning C4005: 'INT8_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(167) : 'INT8_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(77): warning C4005: 'INT16_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(171) : 'INT16_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(78): warning C4005: 'INT32_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(176) : 'INT32_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(79): warning C4005: 'UINT8_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(168) : 'UINT8_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(80): warning C4005: 'UINT16_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(173) : 'UINT16_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(81): warning C4005: 'UINT32_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(178) : 'UINT32_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(149): warning C4005: 'INT64_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(152) : 'INT64_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(150): warning C4005: 'INT64_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(184) : 'INT64_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(151): warning C4005: 'UINT64_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(189) : 'UINT64_MAX'의 이전 정의를 참조하십시오.
          코드를 생성하고 있습니다...
          컴파일하고 있습니다...
          CMI4200L.cpp
-     1>c:\users\user\desktop\2.git\1side_sea_sy\cmi4200l\filesendsocket.h(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'NetEndian.h': No such file or directory
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(72): warning C4005: 'INT8_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(144) : 'INT8_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(73): warning C4005: 'INT16_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(146) : 'INT16_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(74): warning C4005: 'INT32_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(148) : 'INT32_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(76): warning C4005: 'INT8_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(167) : 'INT8_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(77): warning C4005: 'INT16_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(171) : 'INT16_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(78): warning C4005: 'INT32_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(176) : 'INT32_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(79): warning C4005: 'UINT8_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(168) : 'UINT8_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(80): warning C4005: 'UINT16_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(173) : 'UINT16_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(81): warning C4005: 'UINT32_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(178) : 'UINT32_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(149): warning C4005: 'INT64_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(152) : 'INT64_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(150): warning C4005: 'INT64_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(184) : 'INT64_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(151): warning C4005: 'UINT64_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(189) : 'UINT64_MAX'의 이전 정의를 참조하십시오.
          PasswordDlg.cpp
          OperatorDlg.cpp
-     1>c:\users\user\desktop\2.git\1side_sea_sy\cmi4200l\filesendsocket.h(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'NetEndian.h': No such file or directory
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(72): warning C4005: 'INT8_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(144) : 'INT8_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(73): warning C4005: 'INT16_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(146) : 'INT16_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(74): warning C4005: 'INT32_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(148) : 'INT32_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(76): warning C4005: 'INT8_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(167) : 'INT8_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(77): warning C4005: 'INT16_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(171) : 'INT16_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(78): warning C4005: 'INT32_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(176) : 'INT32_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(79): warning C4005: 'UINT8_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(168) : 'UINT8_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(80): warning C4005: 'UINT16_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(173) : 'UINT16_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(81): warning C4005: 'UINT32_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(178) : 'UINT32_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(149): warning C4005: 'INT64_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(152) : 'INT64_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(150): warning C4005: 'INT64_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(184) : 'INT64_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(151): warning C4005: 'UINT64_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(189) : 'UINT64_MAX'의 이전 정의를 참조하십시오.
          NumPadDlg.cpp
          MsgBoxDlg.cpp
          MonitorMotionTabDlg.cpp
@@ -50,7 +260,30 @@
          MonitorDlg.cpp
          MinidumpHelp.cpp
          MESInterface.cpp
-     1>c:\users\user\desktop\2.git\1side_sea_sy\cmi4200l\filesendsocket.h(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'NetEndian.h': No such file or directory
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(72): warning C4005: 'INT8_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(144) : 'INT8_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(73): warning C4005: 'INT16_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(146) : 'INT16_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(74): warning C4005: 'INT32_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(148) : 'INT32_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(76): warning C4005: 'INT8_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(167) : 'INT8_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(77): warning C4005: 'INT16_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(171) : 'INT16_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(78): warning C4005: 'INT32_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(176) : 'INT32_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(79): warning C4005: 'UINT8_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(168) : 'UINT8_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(80): warning C4005: 'UINT16_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(173) : 'UINT16_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(81): warning C4005: 'UINT32_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(178) : 'UINT32_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(149): warning C4005: 'INT64_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(152) : 'INT64_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(150): warning C4005: 'INT64_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(184) : 'INT64_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(151): warning C4005: 'UINT64_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(189) : 'UINT64_MAX'의 이전 정의를 참조하십시오.
          Manual_NgGoodPickerDlg.cpp
          Manual_UnloadPickerDlg.cpp
          Manual_LoadPickerDlg.cpp
@@ -58,7 +291,30 @@
          Manual_UnloadingDlg.cpp
          Manual_InspectorDlg.cpp
          ManualDlg.cpp
-     1>c:\users\user\desktop\2.git\1side_sea_sy\cmi4200l\filesendsocket.h(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'NetEndian.h': No such file or directory
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(72): warning C4005: 'INT8_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(144) : 'INT8_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(73): warning C4005: 'INT16_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(146) : 'INT16_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(74): warning C4005: 'INT32_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(148) : 'INT32_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(76): warning C4005: 'INT8_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(167) : 'INT8_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(77): warning C4005: 'INT16_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(171) : 'INT16_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(78): warning C4005: 'INT32_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(176) : 'INT32_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(79): warning C4005: 'UINT8_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(168) : 'UINT8_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(80): warning C4005: 'UINT16_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(173) : 'UINT16_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(81): warning C4005: 'UINT32_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(178) : 'UINT32_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(149): warning C4005: 'INT64_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(152) : 'INT64_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(150): warning C4005: 'INT64_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(184) : 'INT64_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(151): warning C4005: 'UINT64_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(189) : 'UINT64_MAX'의 이전 정의를 참조하십시오.
          코드를 생성하고 있습니다...
          컴파일하고 있습니다...
          LogFile.cpp
@@ -66,25 +322,272 @@
          LedStatic.cpp
          KeyPadDlg.cpp
          Inspector.cpp
-     1>c:\users\user\desktop\2.git\1side_sea_sy\cmi4200l\filesendsocket.h(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'NetEndian.h': No such file or directory
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(72): warning C4005: 'INT8_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(144) : 'INT8_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(73): warning C4005: 'INT16_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(146) : 'INT16_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(74): warning C4005: 'INT32_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(148) : 'INT32_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(76): warning C4005: 'INT8_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(167) : 'INT8_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(77): warning C4005: 'INT16_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(171) : 'INT16_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(78): warning C4005: 'INT32_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(176) : 'INT32_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(79): warning C4005: 'UINT8_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(168) : 'UINT8_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(80): warning C4005: 'UINT16_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(173) : 'UINT16_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(81): warning C4005: 'UINT32_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(178) : 'UINT32_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(149): warning C4005: 'INT64_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(152) : 'INT64_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(150): warning C4005: 'INT64_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(184) : 'INT64_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(151): warning C4005: 'UINT64_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(189) : 'UINT64_MAX'의 이전 정의를 참조하십시오.
          InitialDlg.cpp
-     1>c:\users\user\desktop\2.git\1side_sea_sy\cmi4200l\filesendsocket.h(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'NetEndian.h': No such file or directory
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(72): warning C4005: 'INT8_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(144) : 'INT8_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(73): warning C4005: 'INT16_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(146) : 'INT16_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(74): warning C4005: 'INT32_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(148) : 'INT32_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(76): warning C4005: 'INT8_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(167) : 'INT8_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(77): warning C4005: 'INT16_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(171) : 'INT16_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(78): warning C4005: 'INT32_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(176) : 'INT32_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(79): warning C4005: 'UINT8_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(168) : 'UINT8_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(80): warning C4005: 'UINT16_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(173) : 'UINT16_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(81): warning C4005: 'UINT32_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(178) : 'UINT32_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(149): warning C4005: 'INT64_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(152) : 'INT64_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(150): warning C4005: 'INT64_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(184) : 'INT64_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(151): warning C4005: 'UINT64_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(189) : 'UINT64_MAX'의 이전 정의를 참조하십시오.
          FileSendSocket.cpp
-     1>c:\users\user\desktop\2.git\1side_sea_sy\cmi4200l\filesendsocket.h(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'NetEndian.h': No such file or directory
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(72): warning C4005: 'INT8_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(144) : 'INT8_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(73): warning C4005: 'INT16_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(146) : 'INT16_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(74): warning C4005: 'INT32_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(148) : 'INT32_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(76): warning C4005: 'INT8_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(167) : 'INT8_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(77): warning C4005: 'INT16_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(171) : 'INT16_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(78): warning C4005: 'INT32_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(176) : 'INT32_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(79): warning C4005: 'UINT8_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(168) : 'UINT8_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(80): warning C4005: 'UINT16_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(173) : 'UINT16_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(81): warning C4005: 'UINT32_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(178) : 'UINT32_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(149): warning C4005: 'INT64_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(152) : 'INT64_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(150): warning C4005: 'INT64_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(184) : 'INT64_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(151): warning C4005: 'UINT64_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(189) : 'UINT64_MAX'의 이전 정의를 참조하십시오.
          ExtBarcode_Honeywell.cpp
          ErrorDlg.cpp
-     1>c:\users\user\desktop\2.git\1side_sea_sy\cmi4200l\filesendsocket.h(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'NetEndian.h': No such file or directory
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(72): warning C4005: 'INT8_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(144) : 'INT8_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(73): warning C4005: 'INT16_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(146) : 'INT16_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(74): warning C4005: 'INT32_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(148) : 'INT32_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(76): warning C4005: 'INT8_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(167) : 'INT8_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(77): warning C4005: 'INT16_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(171) : 'INT16_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(78): warning C4005: 'INT32_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(176) : 'INT32_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(79): warning C4005: 'UINT8_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(168) : 'UINT8_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(80): warning C4005: 'UINT16_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(173) : 'UINT16_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(81): warning C4005: 'UINT32_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(178) : 'UINT32_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(149): warning C4005: 'INT64_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(152) : 'INT64_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(150): warning C4005: 'INT64_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(184) : 'INT64_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(151): warning C4005: 'UINT64_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(189) : 'UINT64_MAX'의 이전 정의를 참조하십시오.
          DataSocket.cpp
          DataManager.cpp
          Data.cpp
          Common.cpp
-     1>c:\users\user\desktop\2.git\1side_sea_sy\cmi4200l\filesendsocket.h(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'NetEndian.h': No such file or directory
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(72): warning C4005: 'INT8_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(144) : 'INT8_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(73): warning C4005: 'INT16_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(146) : 'INT16_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(74): warning C4005: 'INT32_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(148) : 'INT32_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(76): warning C4005: 'INT8_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(167) : 'INT8_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(77): warning C4005: 'INT16_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(171) : 'INT16_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(78): warning C4005: 'INT32_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(176) : 'INT32_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(79): warning C4005: 'UINT8_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(168) : 'UINT8_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(80): warning C4005: 'UINT16_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(173) : 'UINT16_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(81): warning C4005: 'UINT32_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(178) : 'UINT32_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(149): warning C4005: 'INT64_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(152) : 'INT64_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(150): warning C4005: 'INT64_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(184) : 'INT64_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(151): warning C4005: 'UINT64_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(189) : 'UINT64_MAX'의 이전 정의를 참조하십시오.
          CapAttachUDP.cpp
          Barcode_DS1100.cpp
          AJinAXL.cpp
          코드를 생성하고 있습니다...
-     1>"C:\Users\USER\Desktop\2.Git\1Side_SEA_SY\CMI4200L\CMI4200L.vcxproj" 프로젝트를 빌드했습니다(build 대상). - 실패
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _AFXDLL /l"0x0412" /IDebug\ /nologo /fo"Debug\CMI4200L.res" CMI4200L.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\CMI4200L_Handler_D.exe.embed.manifest.res" Debug\CMI4200L_Handler_D_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Run\CMI4200L_Handler_D.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\CMI4200L_Handler_D.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\USER\Desktop\2.Git\1Side_SEA_SY\CMI4200L\Run\CMI4200L_Handler_D.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Run\CMI4200L_Handler_D.lib" /MACHINE:X86 Debug\CMI4200L.res
+         Debug\CMI4200L_Handler_D.exe.embed.manifest.res
+         Debug\AJinAXL.obj
+         Debug\Barcode_DS1100.obj
+         Debug\CapAttachUDP.obj
+         Debug\Common.obj
+         Debug\Data.obj
+         Debug\DataManager.obj
+         Debug\DataSocket.obj
+         Debug\ErrorDlg.obj
+         Debug\ExtBarcode_Honeywell.obj
+         Debug\FileSendSocket.obj
+         Debug\InitialDlg.obj
+         Debug\Inspector.obj
+         Debug\KeyPadDlg.obj
+         Debug\LedStatic.obj
+         Debug\ListBoxDlg.obj
+         Debug\LogFile.obj
+         Debug\ManualDlg.obj
+         Debug\Manual_InspectorDlg.obj
+         Debug\Manual_UnloadingDlg.obj
+         Debug\Manual_LoadingDlg.obj
+         Debug\Manual_LoadPickerDlg.obj
+         Debug\Manual_UnloadPickerDlg.obj
+         Debug\Manual_NgGoodPickerDlg.obj
+         Debug\MESInterface.obj
+         Debug\MinidumpHelp.obj
+         Debug\MonitorDlg.obj
+         Debug\MonitorInOutDlg.obj
+         Debug\MonitorInOutTabDlg.obj
+         Debug\MonitorLogDlg.obj
+         Debug\MonitorMotionDlg.obj
+         Debug\MonitorMotionTabDlg.obj
+         Debug\MsgBoxDlg.obj
+         Debug\NumPadDlg.obj
+         Debug\OperatorDlg.obj
+         Debug\PasswordDlg.obj
+         Debug\CMI4200L.obj
+         Debug\CMI4200LDlg.obj
+         Debug\PauseDlg.obj
+         Debug\SequenceInit.obj
+         Debug\SequenceMain.obj
+         Debug\SerialInterface.obj
+         Debug\SetupDlg.obj
+         Debug\SetupEquipDlg.obj
+         Debug\SetupInOutDlg.obj
+         Debug\SetupInOutTabDlg.obj
+         Debug\SetupModelDlg.obj
+         Debug\SetupMotionDlg.obj
+         Debug\SetupMotionTabDlg.obj
+         Debug\SetupMoveDlg.obj
+         Debug\SetupMoveTab1Dlg.obj
+         Debug\SetupMoveTab2Dlg.obj
+         Debug\SetupMoveTab3Dlg.obj
+         Debug\SetupMoveTab4Dlg.obj
+         Debug\SocketTCP.obj
+         Debug\SplashDlg.obj
+         Debug\stdafx.obj
+         Debug\WorkDlg.obj
+       Manifest:
+         "Debug\CMI4200L_Handler_D.exe.embed.manifest" 파일을 삭제하고 있습니다.
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\CMI4200L_Handler_D.exe.embed.manifest" /manifest Debug\CMI4200L_Handler_D.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\CMI4200L_Handler_D.exe.embed.manifest.res" Debug\CMI4200L_Handler_D_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Run\CMI4200L_Handler_D.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\CMI4200L_Handler_D.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\USER\Desktop\2.Git\1Side_SEA_SY\CMI4200L\Run\CMI4200L_Handler_D.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Run\CMI4200L_Handler_D.lib" /MACHINE:X86 Debug\CMI4200L.res
+         Debug\CMI4200L_Handler_D.exe.embed.manifest.res
+         Debug\AJinAXL.obj
+         Debug\Barcode_DS1100.obj
+         Debug\CapAttachUDP.obj
+         Debug\Common.obj
+         Debug\Data.obj
+         Debug\DataManager.obj
+         Debug\DataSocket.obj
+         Debug\ErrorDlg.obj
+         Debug\ExtBarcode_Honeywell.obj
+         Debug\FileSendSocket.obj
+         Debug\InitialDlg.obj
+         Debug\Inspector.obj
+         Debug\KeyPadDlg.obj
+         Debug\LedStatic.obj
+         Debug\ListBoxDlg.obj
+         Debug\LogFile.obj
+         Debug\ManualDlg.obj
+         Debug\Manual_InspectorDlg.obj
+         Debug\Manual_UnloadingDlg.obj
+         Debug\Manual_LoadingDlg.obj
+         Debug\Manual_LoadPickerDlg.obj
+         Debug\Manual_UnloadPickerDlg.obj
+         Debug\Manual_NgGoodPickerDlg.obj
+         Debug\MESInterface.obj
+         Debug\MinidumpHelp.obj
+         Debug\MonitorDlg.obj
+         Debug\MonitorInOutDlg.obj
+         Debug\MonitorInOutTabDlg.obj
+         Debug\MonitorLogDlg.obj
+         Debug\MonitorMotionDlg.obj
+         Debug\MonitorMotionTabDlg.obj
+         Debug\MsgBoxDlg.obj
+         Debug\NumPadDlg.obj
+         Debug\OperatorDlg.obj
+         Debug\PasswordDlg.obj
+         Debug\CMI4200L.obj
+         Debug\CMI4200LDlg.obj
+         Debug\PauseDlg.obj
+         Debug\SequenceInit.obj
+         Debug\SequenceMain.obj
+         Debug\SerialInterface.obj
+         Debug\SetupDlg.obj
+         Debug\SetupEquipDlg.obj
+         Debug\SetupInOutDlg.obj
+         Debug\SetupInOutTabDlg.obj
+         Debug\SetupModelDlg.obj
+         Debug\SetupMotionDlg.obj
+         Debug\SetupMotionTabDlg.obj
+         Debug\SetupMoveDlg.obj
+         Debug\SetupMoveTab1Dlg.obj
+         Debug\SetupMoveTab2Dlg.obj
+         Debug\SetupMoveTab3Dlg.obj
+         Debug\SetupMoveTab4Dlg.obj
+         Debug\SocketTCP.obj
+         Debug\SplashDlg.obj
+         Debug\stdafx.obj
+         Debug\WorkDlg.obj
+         CMI4200L.vcxproj -> C:\Users\USER\Desktop\2.Git\1Side_SEA_SY\CMI4200L\Run\CMI4200L_Handler_D.exe
+       FinalizeBuildStatus:
+         "Debug\CMI4200L.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Debug\CMI4200L.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"C:\Users\USER\Desktop\2.Git\1Side_SEA_SY\CMI4200L\CMI4200L.vcxproj" 프로젝트를 빌드했습니다(build 대상).
 
-빌드하지 못했습니다.
+빌드했습니다.
 
-경과 시간: 00:00:10.80
+경과 시간: 00:00:31.80
