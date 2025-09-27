@@ -1,24 +1,90 @@
-﻿빌드 시작: 2025-09-25 오후 7:38:41
-     1>2 노드의 "D:\1side\3.Souse\1Side_AVI_SEA\CMI4200L\CMI4200L.vcxproj" 프로젝트(build 대상)입니다.
+﻿빌드 시작: 2025-09-27 오전 11:26:28
+     1>2 노드의 "C:\Users\USER\Desktop\2.Git\1Side_SEA_SY\CMI4200L\CMI4200L.vcxproj" 프로젝트(build 대상)입니다.
      1>InitializeBuildStatus:
          "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\CMI4200L.unsuccessfulbuild"을(를) 만들고 있습니다.
        ClCompile:
-         모든 출력이 최신 상태입니다.
-         모든 출력이 최신 상태입니다.
-       ResourceCompile:
-         모든 출력이 최신 상태입니다.
-       ManifestResourceCompile:
-         모든 출력이 최신 상태입니다.
-       Link:
-         모든 출력이 최신 상태입니다.
-       Manifest:
-         모든 출력이 최신 상태입니다.
-         모든 출력이 최신 상태입니다.
-       FinalizeBuildStatus:
-         "Debug\CMI4200L.unsuccessfulbuild" 파일을 삭제하고 있습니다.
-         "Debug\CMI4200L.lastbuildstate"에 연결(touching)하고 있습니다.
-     1>"D:\1side\3.Souse\1Side_AVI_SEA\CMI4200L\CMI4200L.vcxproj" 프로젝트를 빌드했습니다(build 대상).
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\CMI4200L_Handler_D.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\CMI4200L_Handler_D.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AJinAXL.cpp Barcode_DS1100.cpp CapAttachUDP.cpp Common.cpp Data.cpp DataManager.cpp DataSocket.cpp ErrorDlg.cpp ExtBarcode_Honeywell.cpp FileSendSocket.cpp InitialDlg.cpp Inspector.cpp KeyPadDlg.cpp LedStatic.cpp ListBoxDlg.cpp LogFile.cpp ManualDlg.cpp Manual_InspectorDlg.cpp Manual_UnloadingDlg.cpp Manual_LoadingDlg.cpp Manual_LoadPickerDlg.cpp Manual_UnloadPickerDlg.cpp Manual_NgGoodPickerDlg.cpp MESInterface.cpp MinidumpHelp.cpp MonitorDlg.cpp MonitorInOutDlg.cpp MonitorInOutTabDlg.cpp MonitorLogDlg.cpp MonitorMotionDlg.cpp MonitorMotionTabDlg.cpp MsgBoxDlg.cpp NumPadDlg.cpp OperatorDlg.cpp PasswordDlg.cpp CMI4200L.cpp CMI4200LDlg.cpp PauseDlg.cpp SequenceInit.cpp SequenceMain.cpp SerialInterface.cpp SetupDlg.cpp SetupEquipDlg.cpp SetupInOutDlg.cpp SetupInOutTabDlg.cpp SetupModelDlg.cpp SetupMotionDlg.cpp SetupMotionTabDlg.cpp SetupMoveDlg.cpp SetupMoveTab1Dlg.cpp SetupMoveTab2Dlg.cpp SetupMoveTab3Dlg.cpp SetupMoveTab4Dlg.cpp SocketTCP.cpp SplashDlg.cpp WorkDlg.cpp
+         WorkDlg.cpp
+     1>c:\users\user\desktop\2.git\1side_sea_sy\cmi4200l\filesendsocket.h(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'NetEndian.h': No such file or directory
+         SplashDlg.cpp
+         SocketTCP.cpp
+         SetupMoveTab4Dlg.cpp
+         SetupMoveTab3Dlg.cpp
+         SetupMoveTab2Dlg.cpp
+         SetupMoveTab1Dlg.cpp
+         SetupMoveDlg.cpp
+         SetupMotionTabDlg.cpp
+         SetupMotionDlg.cpp
+         SetupModelDlg.cpp
+         SetupInOutTabDlg.cpp
+         SetupInOutDlg.cpp
+         SetupEquipDlg.cpp
+     1>c:\users\user\desktop\2.git\1side_sea_sy\cmi4200l\filesendsocket.h(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'NetEndian.h': No such file or directory
+         SetupDlg.cpp
+     1>c:\users\user\desktop\2.git\1side_sea_sy\cmi4200l\filesendsocket.h(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'NetEndian.h': No such file or directory
+         SerialInterface.cpp
+         SequenceMain.cpp
+     1>c:\users\user\desktop\2.git\1side_sea_sy\cmi4200l\filesendsocket.h(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'NetEndian.h': No such file or directory
+         SequenceInit.cpp
+     1>c:\users\user\desktop\2.git\1side_sea_sy\cmi4200l\filesendsocket.h(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'NetEndian.h': No such file or directory
+         PauseDlg.cpp
+     1>c:\users\user\desktop\2.git\1side_sea_sy\cmi4200l\filesendsocket.h(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'NetEndian.h': No such file or directory
+         CMI4200LDlg.cpp
+     1>c:\users\user\desktop\2.git\1side_sea_sy\cmi4200l\filesendsocket.h(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'NetEndian.h': No such file or directory
+         코드를 생성하고 있습니다...
+         컴파일하고 있습니다...
+         CMI4200L.cpp
+     1>c:\users\user\desktop\2.git\1side_sea_sy\cmi4200l\filesendsocket.h(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'NetEndian.h': No such file or directory
+         PasswordDlg.cpp
+         OperatorDlg.cpp
+     1>c:\users\user\desktop\2.git\1side_sea_sy\cmi4200l\filesendsocket.h(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'NetEndian.h': No such file or directory
+         NumPadDlg.cpp
+         MsgBoxDlg.cpp
+         MonitorMotionTabDlg.cpp
+         MonitorMotionDlg.cpp
+         MonitorLogDlg.cpp
+         MonitorInOutTabDlg.cpp
+         MonitorInOutDlg.cpp
+         MonitorDlg.cpp
+         MinidumpHelp.cpp
+         MESInterface.cpp
+     1>c:\users\user\desktop\2.git\1side_sea_sy\cmi4200l\filesendsocket.h(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'NetEndian.h': No such file or directory
+         Manual_NgGoodPickerDlg.cpp
+         Manual_UnloadPickerDlg.cpp
+         Manual_LoadPickerDlg.cpp
+         Manual_LoadingDlg.cpp
+         Manual_UnloadingDlg.cpp
+         Manual_InspectorDlg.cpp
+         ManualDlg.cpp
+     1>c:\users\user\desktop\2.git\1side_sea_sy\cmi4200l\filesendsocket.h(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'NetEndian.h': No such file or directory
+         코드를 생성하고 있습니다...
+         컴파일하고 있습니다...
+         LogFile.cpp
+         ListBoxDlg.cpp
+         LedStatic.cpp
+         KeyPadDlg.cpp
+         Inspector.cpp
+     1>c:\users\user\desktop\2.git\1side_sea_sy\cmi4200l\filesendsocket.h(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'NetEndian.h': No such file or directory
+         InitialDlg.cpp
+     1>c:\users\user\desktop\2.git\1side_sea_sy\cmi4200l\filesendsocket.h(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'NetEndian.h': No such file or directory
+         FileSendSocket.cpp
+     1>c:\users\user\desktop\2.git\1side_sea_sy\cmi4200l\filesendsocket.h(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'NetEndian.h': No such file or directory
+         ExtBarcode_Honeywell.cpp
+         ErrorDlg.cpp
+     1>c:\users\user\desktop\2.git\1side_sea_sy\cmi4200l\filesendsocket.h(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'NetEndian.h': No such file or directory
+         DataSocket.cpp
+         DataManager.cpp
+         Data.cpp
+         Common.cpp
+     1>c:\users\user\desktop\2.git\1side_sea_sy\cmi4200l\filesendsocket.h(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'NetEndian.h': No such file or directory
+         CapAttachUDP.cpp
+         Barcode_DS1100.cpp
+         AJinAXL.cpp
+         코드를 생성하고 있습니다...
+     1>"C:\Users\USER\Desktop\2.Git\1Side_SEA_SY\CMI4200L\CMI4200L.vcxproj" 프로젝트를 빌드했습니다(build 대상). - 실패
 
-빌드했습니다.
+빌드하지 못했습니다.
 
-경과 시간: 00:00:00.07
+경과 시간: 00:00:10.80
