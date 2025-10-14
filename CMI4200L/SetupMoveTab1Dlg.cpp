@@ -360,10 +360,11 @@ void CSetupMoveTab1Dlg::OnBnClickedBtnSave()
 		strKey.Format("Z%02d", i);
 		INI.Set_Double(strSection, strKey, dData, "%0.3lf");
 
+		//RMS 包访亲格 Block 25.10.13.... LHG
 		// RMS 亲格 历厘
-		if (i == 1) g_objMES.Save_AviRmsData("Load Picker Z Load1 Down Position", strData);
-		if (i == 2) g_objMES.Save_AviRmsData("Load Picker Z Load2 Down Position", strData);
-		if (i == 3) g_objMES.Save_AviRmsData("Load Picker Z Index Down Position", strData);
+		//if (i == 1) g_objMES.Save_AviRmsData("Load Picker Z Load1 Down Position", strData);
+		//if (i == 2) g_objMES.Save_AviRmsData("Load Picker Z Load2 Down Position", strData);
+		//if (i == 3) g_objMES.Save_AviRmsData("Load Picker Z Index Down Position", strData);
 
 		if (pMoveData->dLoadPickerZ[i] != dData) {
 			sData.Format("[Setup - Load/Tray Picker] ==> Group[%s] : Item[%s] Value[%0.3lf=>%0.3lf]", strSection, strKey, pMoveData->dLoadPickerZ[i], dData);

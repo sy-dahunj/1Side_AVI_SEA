@@ -259,7 +259,7 @@ void CCommon::Move_Position(int nAxis, int nMoveIdx)
 	if (nAxis == AX_LOAD_PICKER_Y1)		{	dMovePos = pMoveData->dLoadPickerY1[nMoveIdx];  	dAccel = pMoveData->dDLoadPickerY1[nMoveIdx];     }
 	if (nAxis == AX_LOAD_PICKER_Z)		{	dMovePos = pMoveData->dLoadPickerZ[nMoveIdx];   	dAccel = pMoveData->dDLoadPickerZ[nMoveIdx];      }
 	if (nAxis == AX_LOAD_PICKER_Y2)		{	dMovePos = pMoveData->dLoadPickerY2[nMoveIdx];  	dAccel = pMoveData->dDLoadPickerY2[nMoveIdx];     }
-//	if (nAxis == AX_INDEX_R)			{	dMovePos = pMoveData->dIndexR[nMoveIdx];			dAccel = pMoveData->dDIndexR[nMoveIdx];		   }
+	//if (nAxis == AX_INDEX_R)			{	dMovePos = pMoveData->dIndexR[nMoveIdx];			dAccel = pMoveData->dDIndexR[nMoveIdx];		   }
 	if (nAxis == AX_BARCODE_A)			{	dMovePos = pMoveData->dBarCodeA[nMoveIdx];			dAccel = pMoveData->dDBarCodeA[nMoveIdx];		   }
 	if (nAxis == AX_INSPECTION_A)		{	dMovePos = pMoveData->dInspectionA[nMoveIdx];   	dAccel = pMoveData->dDInspectionA[nMoveIdx];      }
 	if (nAxis == AX_INSPECTION_Z)		{	dMovePos = pMoveData->dInspectionZ[nMoveIdx];   	dAccel = pMoveData->dDInspectionZ[nMoveIdx];      }

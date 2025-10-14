@@ -445,13 +445,15 @@ void CAJinAXL::Save_RmsMotionSpeed(int nAxis, double dSpeed)
 	strSpeed.Format("%0.3lf", dSpeed);
 	strAccel.Format("%0.3lf", 0.0);
 
-	strName.Format("%s Speed", strAxis); g_objMES.Save_AviRmsData(strName, strSpeed);
-	strName.Format("%s Accel", strAxis); g_objMES.Save_AviRmsData(strName, strAccel);
+	//RMS 관련항목 Block 25.10.13.... LHG
+	//strName.Format("%s Speed", strAxis); g_objMES.Save_AviRmsData(strName, strSpeed);
+	//strName.Format("%s Accel", strAxis); g_objMES.Save_AviRmsData(strName, strAccel);
 }
 
 void CAJinAXL::Status_Monitoring()
 {
 	int	nIndexPos=0;
+
 	if      (!m_DX2.iInspCMAlignCheck1 && !m_DX2.iInspCMAlignCheck2 && !m_DX2.iInspCMAlignCheck3) nIndexPos = 1;
 	else if ( m_DX2.iInspCMAlignCheck1 && !m_DX2.iInspCMAlignCheck2 && !m_DX2.iInspCMAlignCheck3) nIndexPos = 2;
 	else if (!m_DX2.iInspCMAlignCheck1 &&  m_DX2.iInspCMAlignCheck2 && !m_DX2.iInspCMAlignCheck3) nIndexPos = 3;
@@ -461,8 +463,10 @@ void CAJinAXL::Status_Monitoring()
 	else if (!m_DX2.iInspCMAlignCheck1 &&  m_DX2.iInspCMAlignCheck2 &&  m_DX2.iInspCMAlignCheck3) nIndexPos = 7;
 	else if ( m_DX2.iInspCMAlignCheck1 &&  m_DX2.iInspCMAlignCheck2 &&  m_DX2.iInspCMAlignCheck3) nIndexPos = 8;
 
-	if (gData.nIndexPos == 8 && nIndexPos != 8) gData.nIndexPos = 0;
-	if (gData.nIndexPos < nIndexPos) gData.nIndexPos = nIndexPos;
+	gData.nIndexPos = nIndexPos;
+	
+	//if (gData.nIndexPos == 8 && nIndexPos != 8) gData.nIndexPos = 0;
+	//if (gData.nIndexPos < nIndexPos) gData.nIndexPos = nIndexPos;
 
 // 	if (!m_DX6.iUS_Unload1FCheck)	m_nGoodCnt++;
 // 	else							m_nGoodCnt = 0;

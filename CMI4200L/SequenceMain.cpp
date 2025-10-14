@@ -3726,14 +3726,16 @@ BOOL CSequenceMain::NGPicker_Run()
 				gLot.nCmJigNo[gData.PickerNGTrayNo-1][gData.nNGTrayCmNo-1][4] = gData.NGPicNo;
 			}	
 
-			if(gData.PickerInfor[1][gData.NGPicNo-1] == 16)
-			{
-				g_objMES.Save_ProcessedData(gLot.sLotID, gLot.sBarLoad[nTNo][nPno], "NG", gLot.sNGCode[nTNo][nPno], gLot.sNGText[nTNo][nPno], nTNo+1, nPno+1, 0,0, gData.nNGTrayPos, nNGPos);
-			}
-			else
-			{
-				g_objMES.Save_ProcessedData(gLot.sLotID, gLot.sBarLoad[nTNo][nPno], "OK", gLot.sNGCode[nTNo][nPno], gLot.sNGText[nTNo][nPno], nTNo+1, nPno+1, 0,0, gData.nNGTrayPos, nNGPos);
-			}
+			g_objMES.Save_ProcessedData(gLot.sLotID, gLot.sBarLoad[nTNo][nPno], "NG", gLot.sNGCode[nTNo][nPno], gLot.sNGText[nTNo][nPno], nTNo+1, nPno+1, 0,0, gData.nNGTrayPos, nNGPos);
+			
+			//if(gData.PickerInfor[1][gData.NGPicNo-1] == 8)
+			//{
+			//	g_objMES.Save_ProcessedData(gLot.sLotID, gLot.sBarLoad[nTNo][nPno], "NG", gLot.sNGCode[nTNo][nPno], gLot.sNGText[nTNo][nPno], nTNo+1, nPno+1, 0,0, gData.nNGTrayPos, nNGPos);
+			//}
+			//else
+			//{
+			//	g_objMES.Save_ProcessedData(gLot.sLotID, gLot.sBarLoad[nTNo][nPno], "OK", gLot.sNGCode[nTNo][nPno], gLot.sNGText[nTNo][nPno], nTNo+1, nPno+1, 0,0, gData.nNGTrayPos, nNGPos);
+			//}
 
 			gData.PickerInfor[1][gData.NGPicNo-1] = 0;
 			//g_objMES.Set_Result(gLot.sLotID, gLot.sBarLoad[nTNo][nPno], "NG", gLot.sNGCode[nTNo][nPno], gLot.sNGText[nTNo][nPno], nTNo+1, nPno+1, 0,0, gData.nNGTrayPos, nNGPos);

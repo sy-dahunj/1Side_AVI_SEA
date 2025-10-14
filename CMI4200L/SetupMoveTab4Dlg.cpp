@@ -358,9 +358,10 @@ void CSetupMoveTab4Dlg::OnBnClickedBtnSave()
 		strKey.Format("Z%02d", i);
 		INI.Set_Double(strSection, strKey, dData, "%0.3lf");
 
+		//RMS 包访亲格 Block 25.10.13.... LHG
 		// RMS 亲格 历厘
-		if (i == 1) g_objMES.Save_AviRmsData("Unload Picker Z Load Down Position", strData);
-		if (i == 2) g_objMES.Save_AviRmsData("Unload Picker Z Unload Down Position", strData);
+		//if (i == 1) g_objMES.Save_AviRmsData("Unload Picker Z Load Down Position", strData);
+		//if (i == 2) g_objMES.Save_AviRmsData("Unload Picker Z Unload Down Position", strData);
 
 		if (pMoveData->dUnloadPickerZ[i] != dData) {
 			sData.Format("[Setup - Unload/Tray Picker] ==> Group[%s] : Item[%s] Value[%0.3lf=>%0.3lf]", strSection, strKey, pMoveData->dUnloadPickerZ[i], dData);

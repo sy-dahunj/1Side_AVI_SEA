@@ -1316,7 +1316,14 @@ void CInspector::Set_LotComplete(int nInspector)
 void CInspector::Set_LoadComplete(int nInspector, int nTrayNo, int nTRNo)
 {
 	CString sSendData;
+<<<<<<< HEAD
+	gData.nIndexPos = gData.nIndexPos - 1;
+	if(gData.nIndexPos == 0) gData.nIndexPos= 8;
+
 	sSendData.Format("LOAD,COMPLETE,%s,%02d,%d,%s,%d", gLot.sLotID, nTrayNo, nTRNo, gData.sRecipeName, gData.nIndexPos);
+=======
+	sSendData.Format("LOAD,COMPLETE,%s,%02d,%d,%s,%d", gLot.sLotID, nTrayNo, nTRNo, gData.sRecipeName,gData.nIndexPos );
+>>>>>>> 5e0a5567d96b7bf28cb7d0e4f9684956c2ec0895
 	Send_Command(nInspector, sSendData);
 }
 
